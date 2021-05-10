@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DI.Abstractions\src\Kevin.Extensions.DependencyInjection.Abstractions\Kevin.Extensions.DependencyInjection.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
