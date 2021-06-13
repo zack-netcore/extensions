@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kevin.Extensions.DependencyInjection.Abstractions
+namespace Gene.Extensions.DependencyInjection.Abstractions
 {
     public class ServiceDescriptor
     {

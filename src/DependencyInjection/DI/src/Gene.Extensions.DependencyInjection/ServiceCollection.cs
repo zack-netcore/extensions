@@ -1,10 +1,10 @@
-﻿using Kevin.Extensions.DependencyInjection.Abstractions;
+﻿using Gene.Extensions.DependencyInjection.Abstractions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kevin.Extensions.DependencyInjection
+namespace Gene.Extensions.DependencyInjection
 {
     public class ServiceCollection : IServiceCollection
     {

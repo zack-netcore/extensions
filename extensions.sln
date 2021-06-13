@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{67B8AF35-A966-4EE7-A4EE-E5C9F71EC4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kevin.Extensions.DependencyInjection", "src\DependencyInjection\DI\src\Kevin.Extensions.DependencyInjection\Kevin.Extensions.DependencyInjection.csproj", "{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection", "src\DependencyInjection\DI\src\Kevin.Extensions.DependencyInjection\Gene.Extensions.DependencyInjection.csproj", "{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kevin.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection\DI.Abstractions\src\Kevin.Extensions.DependencyInjection.Abstractions\Kevin.Extensions.DependencyInjection.Abstractions.csproj", "{7E968138-A9A4-4C1F-898A-03DE74CD61C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection\DI.Abstractions\src\Kevin.Extensions.DependencyInjection.Abstractions\Gene.Extensions.DependencyInjection.Abstractions.csproj", "{7E968138-A9A4-4C1F-898A-03DE74CD61C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kevin.Extensions.DependencyInjection.Test", "src\DependencyInjection\DI.Test\src\Kevin.Extensions.DependencyInjection.Test\Kevin.Extensions.DependencyInjection.Test.csproj", "{5719682C-DE9D-4B71-956F-3D58E046A358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection.Test", "src\DependencyInjection\DI.Test\src\Kevin.Extensions.DependencyInjection.Test\Gene.Extensions.DependencyInjection.Test.csproj", "{5719682C-DE9D-4B71-956F-3D58E046A358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
