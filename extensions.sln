@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{67B8AF35-A966-4EE7-A4EE-E5C9F71EC4CF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{59E17F5C-A25C-45D8-B104-8D0C166F73F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection", "src\DependencyInjection\DI\src\Kevin.Extensions.DependencyInjection\Gene.Extensions.DependencyInjection.csproj", "{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zack.Extensions.DependencyInjection", "src\DependencyInjection\DI\src\Gene.Extensions.DependencyInjection\Zack.Extensions.DependencyInjection.csproj", "{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection\DI.Abstractions\src\Kevin.Extensions.DependencyInjection.Abstractions\Gene.Extensions.DependencyInjection.Abstractions.csproj", "{7E968138-A9A4-4C1F-898A-03DE74CD61C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zack.Extensions.DependencyInjection.Abstractions", "src\DependencyInjection\DI.Abstractions\src\Gene.Extensions.DependencyInjection.Abstractions\Zack.Extensions.DependencyInjection.Abstractions.csproj", "{4A57ECDD-6357-4D7C-B699-C231F01D59D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gene.Extensions.DependencyInjection.Test", "src\DependencyInjection\DI.Test\src\Kevin.Extensions.DependencyInjection.Test\Gene.Extensions.DependencyInjection.Test.csproj", "{5719682C-DE9D-4B71-956F-3D58E046A358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zack.Extensions.DependencyInjection.Test", "src\DependencyInjection\DI.Test\src\Gene.Extensions.DependencyInjection.Test\Zack.Extensions.DependencyInjection.Test.csproj", "{169DC7A9-7827-4562-9413-943F23B61473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7E968138-A9A4-4C1F-898A-03DE74CD61C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E968138-A9A4-4C1F-898A-03DE74CD61C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E968138-A9A4-4C1F-898A-03DE74CD61C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E968138-A9A4-4C1F-898A-03DE74CD61C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5719682C-DE9D-4B71-956F-3D58E046A358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5719682C-DE9D-4B71-956F-3D58E046A358}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5719682C-DE9D-4B71-956F-3D58E046A358}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5719682C-DE9D-4B71-956F-3D58E046A358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A57ECDD-6357-4D7C-B699-C231F01D59D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A57ECDD-6357-4D7C-B699-C231F01D59D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A57ECDD-6357-4D7C-B699-C231F01D59D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A57ECDD-6357-4D7C-B699-C231F01D59D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169DC7A9-7827-4562-9413-943F23B61473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169DC7A9-7827-4562-9413-943F23B61473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169DC7A9-7827-4562-9413-943F23B61473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169DC7A9-7827-4562-9413-943F23B61473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EE5F9A6A-175E-4C7E-AA36-A7016F1F0517} = {67B8AF35-A966-4EE7-A4EE-E5C9F71EC4CF}
-		{7E968138-A9A4-4C1F-898A-03DE74CD61C6} = {67B8AF35-A966-4EE7-A4EE-E5C9F71EC4CF}
-		{5719682C-DE9D-4B71-956F-3D58E046A358} = {67B8AF35-A966-4EE7-A4EE-E5C9F71EC4CF}
+		{89F92095-8673-4CD1-84F0-4BBD4EBCD8EA} = {59E17F5C-A25C-45D8-B104-8D0C166F73F6}
+		{4A57ECDD-6357-4D7C-B699-C231F01D59D7} = {59E17F5C-A25C-45D8-B104-8D0C166F73F6}
+		{169DC7A9-7827-4562-9413-943F23B61473} = {59E17F5C-A25C-45D8-B104-8D0C166F73F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A14276B4-C355-483B-B527-5A32AB062D94}
