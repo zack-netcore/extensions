@@ -1,10 +1,10 @@
-﻿using Gene.Extensions.DependencyInjection.Abstractions;
+﻿using Zack.Extensions.DependencyInjection.Abstractions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Gene.Extensions.DependencyInjection
+namespace Zack.Extensions.DependencyInjection
 {
     public class ServiceCollection : IServiceCollection
     {

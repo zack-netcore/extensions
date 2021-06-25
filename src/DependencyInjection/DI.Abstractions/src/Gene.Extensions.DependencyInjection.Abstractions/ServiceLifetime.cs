@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Gene.Extensions.DependencyInjection.Abstractions
+namespace Zack.Extensions.DependencyInjection.Abstractions
 {
     public enum ServiceLifetime
     {

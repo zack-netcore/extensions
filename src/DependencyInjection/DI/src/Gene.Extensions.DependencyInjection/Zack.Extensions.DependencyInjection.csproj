@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\DI.Abstractions\src\Kevin.Extensions.DependencyInjection.Abstractions\Gene.Extensions.DependencyInjection.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\DI.Abstractions\src\Gene.Extensions.DependencyInjection.Abstractions\Zack.Extensions.DependencyInjection.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
