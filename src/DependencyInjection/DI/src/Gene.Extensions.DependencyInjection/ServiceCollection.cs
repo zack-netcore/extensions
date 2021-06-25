@@ -6,6 +6,9 @@ using System.Text;
 
 namespace Zack.Extensions.DependencyInjection
 {
+    /// <summary>
+    /// DI集合
+    /// </summary>
     public class ServiceCollection : IServiceCollection
     {
         private readonly List<ServiceDescriptor> _descriptors = new List<ServiceDescriptor>();
